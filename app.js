@@ -32,12 +32,36 @@ function playSong() {
 
 //pause song
 function pauseSong() {
-    musicContainerEl.classList.remove("play");
-    playBtn.querySelector("i.fas").classList.add("fa-play");
-    playBtn.querySelector("i.fas").classList.remove("fa-pause");
-  
-    audioEl.pause();
+  musicContainerEl.classList.remove("play");
+  playBtn.querySelector("i.fas").classList.add("fa-play");
+  playBtn.querySelector("i.fas").classList.remove("fa-pause");
+
+  audioEl.pause();
+}
+
+//previous song
+function prevSong() {
+  songIndex--;
+  if (songIndex < 0) {
+    songIndex = songs.length - 1;
   }
+
+  loadSong(songs[songIndex]);
+
+  playSong();
+}
+
+//next song
+function nextSong() {
+  songIndex++;
+  if (songIndex > songs.length - 1) {
+    songIndex = 0;
+  }
+
+  loadSong(songs[songIndex]);
+
+  playSong();
+}
 
 //update song details
 function loadSong(song) {
@@ -56,3 +80,7 @@ playBtn.addEventListener("click", () => {
     playSong();
   }
 });
+
+//change song
+prevBtn.addEventListener("click", prevSong);
+nextBtn.addEventListener("click", nextSong);
