@@ -1,6 +1,6 @@
-# [Audio_Player](https://etorres-revature.github.io/Audio_Player/)
+# [Audio Player](https://etorres-revature.github.io/Audio_Player/)
 
-This [Audio_Player](https://etorres-revature.github.io/Audio_Player/) utilizes HTML5, custom CSS, and JavaScript to create an audio player.  The Audio Player has three pre-loaded song assets: Hey, Summer, and Ukelele (each with a corresponding image that displays when it is playing).
+This [Audio Player](https://etorres-revature.github.io/Audio_Player/) utilizes HTML5, custom CSS, and JavaScript to create an audio player.  The Audio Player has three pre-loaded song assets: Hey, Summer, and Ukelele (each with a corresponding image that displays when it is playing).
 
 Songs are stored in one array with each corresponding image stored at the same index positition in another array; when the song is playing the corresponding image is also displayed o nthe screen.  The correspoding image utilizes the CSS rotate animation to spin while the Audio Player is on play. 
 
@@ -11,7 +11,7 @@ JavaScript is utilized for the rest of the functionality.
 * Next/Previous buttons - when pushe iterate to the next song/image in the array
 * Progress bar - continually updated to show the amount of song listened to/left to listen to; with the ability to drag the progress bar forward/backward and play the song from that spot on the progress bar.
 
-Please enjoy the [Audio_Player](https://etorres-revature.github.io/Audio_Player/).  E-mail me with any feature update suggestions.
+Please enjoy the [Audio Player](https://etorres-revature.github.io/Audio_Player/).  E-mail me with any feature update suggestions.
 
 ### :computer: Technologies Used :computer:
 
