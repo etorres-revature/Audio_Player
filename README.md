@@ -37,7 +37,7 @@ Separation of formating and content also makes it feasible to present the same m
 
 ## Author :sunglasses:
 
-Project coded by :green_heart: Eric D. Torres :green_heart: with help from [Traversy Media](https://traversymedia.com/) ["20 Web Projects with Vanilla Javascript"](https://vanillawebprojects.com/).  
+Project coded by :green_heart: Eric D. Torres :green_heart: with help from [Traversy Media](https://traversymedia.com/) - ["20 Web Projects with Vanilla Javascript"](https://vanillawebprojects.com/).  
 
 The author can be reached at etorresnotary@gmail.com. 
 
