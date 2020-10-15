@@ -2,13 +2,13 @@
 
 This [Audio Player](https://etorres-revature.github.io/Audio_Player/) utilizes HTML5, custom CSS, and JavaScript to create an audio player.  The Audio Player has three pre-loaded song assets: Hey, Summer, and Ukelele (each with a corresponding image that displays when it is playing).
 
-Songs are stored in one array with each corresponding image stored at the same index positition in another array; when the song is playing the corresponding image is also displayed o nthe screen.  The correspoding image utilizes the CSS rotate animation to spin while the Audio Player is on play. 
+Songs are stored in one array with each corresponding image stored at the same index position in another array; when the song is playing the corresponding image is also displayed on the screen.  The corresponding image utilizes the CSS rotate animation to spin while the Audio Player is on play. 
 
 JavaScript is utilized for the rest of the functionality.  
 
 * Play button - makes the song start
 * Pause icon - while the song is playing the pause icon is displayed; when the song stops the play icon is displayed again
-* Next/Previous buttons - when pushe iterate to the next song/image in the array
+* Next/Previous buttons - when pushed iterate to the next song/image in the array
 * Progress bar - continually updated to show the amount of song listened to/left to listen to; with the ability to drag the progress bar forward/backward and play the song from that spot on the progress bar.
 
 Please enjoy the [Audio Player](https://etorres-revature.github.io/Audio_Player/).  E-mail me with any feature update suggestions.
@@ -17,7 +17,7 @@ Please enjoy the [Audio Player](https://etorres-revature.github.io/Audio_Player/
 
 #### :memo: HTML5 :memo:
 
-**HTML5** is a markup language used for structuring and presenting content on the World Wide Web.  The goals are to improve the language with support for the latest multi-media and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices; and to remain backward compatible to older software.  Many new symantic features are included.
+**HTML5** is a markup language used for structuring and presenting content on the World Wide Web.  The goals are to improve the language with support for the latest multi-media and other new features; to keep the language both easily readable by humans and consistently understood by computers and devices; and to remain backward compatible to older software.  Many new symantec features are included.
 
 *HTML5* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/HTML5).</a>
 
@@ -25,7 +25,7 @@ Please enjoy the [Audio Player](https://etorres-revature.github.io/Audio_Player/
 
 **Cascading Style Sheets (CSS)** is a stylesheet language used for describing the presentation of a document written in a markup language (such as HTML5).  CSS is designed to enable the separation of presentation and content; including layout, colors, and fonts.  This separation improves content accessibility to provide more flexibility and control in the specification of presentation characteristics, enabling multiple web pages to share formatting by specifying relevant CSS in a separate file, which reduces complexity and repetition in the structural content (HTML), as well as enabling the file to be cached to improve the page load speed between the pages that share the file and its formatting.
 
-Separation of formating and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice, and on Braille-based tactile devices. 
+Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice, and on Braille-based tactile devices. 
 
 *CSS* content borrowed from <a target="_blank" rel="noopener noreferrer">[this page](https://en.wikipedia.org/wiki/Cascading_Style_Sheets).</a>
 
